@@ -20,7 +20,7 @@ function preload()
 function setup() {
 	createCanvas(800, 700);
 
-
+  fill("yellow");
   engine = Engine.create();
   world = engine.world;
 
